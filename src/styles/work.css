@@ -56,12 +56,21 @@
 .work__button:hover .work__button-icon{
     transform: translateX(0.25rem);
 }
-.react-player video  {
+.video__containe{
     position: relative;
-    left: 10;
-    width: 1000px;
-    top: 0;
-    transform: none;
+}
+.video  {
+    position: absolute;
+    bottom: 30px;
+    width: 295px;
+    height: 200px;
+    border-radius: 1rem;
+    margin-bottom: var(--mb-1);
+        object-fit: fill;
+
+}
+.close__video {
+    position: absolute;
 }
 /* active work */ 
 .active-work{
