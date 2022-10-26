@@ -19,7 +19,7 @@ export const projectsData = [
     image: "/assets/work3.jpg",
     title: "Brand design",
     category: "design",
-    video: "/assets/camping.mp4",
+    video: "https://www.youtube.com/watch?v=SMcztSqSQ18&t=38s",
   },
   {
     id: 4,
