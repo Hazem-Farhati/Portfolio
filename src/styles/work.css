@@ -56,7 +56,13 @@
 .work__button:hover .work__button-icon{
     transform: translateX(0.25rem);
 }
-
+.react-player video  {
+    position: relative;
+    left: 10;
+    width: 1000px;
+    top: 0;
+    transform: none;
+}
 /* active work */ 
 .active-work{
     background-color: var(--title-color);

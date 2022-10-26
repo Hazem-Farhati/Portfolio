@@ -11,14 +11,10 @@ const WorkItems = ({ item }) => {
       <h3 className="work__title">{item.title}</h3>
       {showVid ? (
         <>
-          {" "}
-          <ReactPlayer
-            width={300}
-            height={200}
-            url={item.video}
-            controls
-            muted
-          />{" "}
+          
+         <video width='320'  height='240' controls poster="vignette.jpg">
+      <source src={item.video} type="video/webm"/>
+        </video>
           <span onClick={() => setShowVid(false)} className="close">
             X
           </span>
