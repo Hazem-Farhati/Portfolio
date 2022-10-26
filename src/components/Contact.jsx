@@ -46,7 +46,7 @@ const Contact = ({ theme }) => {
                 <h3 className="contact__card-title">Whatsapp</h3>
                 <span className="contact__card-data">+216 28420108</span>
                 <a
-                  href="https://api.whatsapp.com/send?phone=28420108&text=Hello, more information!"
+                  href="https://api.whatsapp.com/send?phone=+21628420108&text=Hello, more information!"
                   className="contact__button"
                 >
                   Write me{" "}
