@@ -35,6 +35,13 @@ export const projectsData = [
     category: "web",
     video: "/assets/camping.mp4",
   },
+  {
+    id: 5,
+    image: "/assets/work5.jpg",
+    title: "Gym",
+    category: "web",
+    video: "/assets/gym.mp4",
+  },
 ];
 
 export const projectsNav = [

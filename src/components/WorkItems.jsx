@@ -14,15 +14,13 @@ const WorkItems = ({ item }) => {
           <div className="video__containe">
             <video
               className="video"
-              
-      
               controls
               autoPlay
               poster="vignette.jpg"
             >
               <source src={item.video} type="video/webm" />
             </video>
-
+            </div>
             <span
               className="close__video"
               onClick={() => setShowVid(false)}
@@ -30,7 +28,7 @@ const WorkItems = ({ item }) => {
             >
               X
             </span>
-          </div>
+          
         </>
       ) : null}
 
