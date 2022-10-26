@@ -158,7 +158,6 @@
 .video__containe{
     position: absolute;
     /* background-color: rgba(0, 255, 255, 0.326); */
-    z-index: 9999999999999;
     height:372px;
     width: 100%;
     top: 0;
@@ -176,7 +175,6 @@
     border-radius: 1rem;
    /* bottom: 300px; */
     object-fit: fill;
-    z-index: 999;
      left: 1px;
      right: 0;
      top: 1px;
@@ -197,7 +195,6 @@
 .video__containe{
     position: absolute;
     /* background-color: rgba(0, 255, 255, 0.326); */
-    z-index: 9999999999999;
     height:250px;
     width: 98%;
     top: 0;
@@ -213,7 +210,6 @@
     border-radius: 1rem;
    /* bottom: 300px; */
     object-fit: fill;
-    z-index: 999;
      left: 8px;
      right: 0;
      top: 1px;
