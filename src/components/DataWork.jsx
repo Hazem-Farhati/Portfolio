@@ -5,7 +5,7 @@ export const projectsData = [
     image: "/assets/work1.jpg",
     title: "Web design",
     category: "web",
-    video: "/assets/camping.mkv",
+    video: "/assets/camping.mp4",
   },
   {
     id: 2,
