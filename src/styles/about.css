@@ -82,7 +82,7 @@
         justify-content: center;
     }
     .about__description{
-        padding: 0 5rem;
+        padding: 0 6rem;
         margin-bottom: 2rem;
     }
 }
@@ -92,9 +92,11 @@
     .about__info{
         grid-template-columns: repeat(3, 1fr);
     }
-    .about__description{
-        padding: 0;
+  .about__description{
+        padding: 2rem 3rem;
+        margin-bottom: 0rem;
     }
+    
 }
 
 /* For small devices */
