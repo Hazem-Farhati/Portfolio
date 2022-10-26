@@ -1,8 +1,10 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "../styles/work.css"
 import ReactPlayer from 'react-player';
+
 const WorkItems = ({ item }) => {
- const [showVid, setShowVid] = useState(false)
+  const [showVid, setShowVid] = useState(false)
+  useEffect(() => {}, [item.video]);
   return (
     <div className="work__card" key={item.id}>
       <img src={item.image} alt="workItems_img" className="work__img" />
