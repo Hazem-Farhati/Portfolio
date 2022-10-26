@@ -5,31 +5,35 @@ export const projectsData = [
     image: "/assets/work1.jpg",
     title: "Web design",
     category: "web",
-    video: "/assets/lavagevid.mkv"
+    video: "/assets/camping.mkv",
   },
   {
     id: 2,
     image: "/assets/work2.jpg",
     title: "App movil",
     category: "app",
+    video: "/assets/camping.mp4",
   },
   {
     id: 3,
     image: "/assets/work3.jpg",
     title: "Brand design",
     category: "design",
+    video: "/assets/camping.mp4",
   },
   {
     id: 4,
     image: "/assets/work4.jpg",
     title: "App movil",
     category: "app",
+    video: "/assets/camping.mp4",
   },
   {
     id: 5,
     image: "/assets/work5.jpg",
     title: "Web design",
     category: "web",
+    video: "/assets/camping.mp4",
   },
 ];
 
